@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: registry.cn-hangzhou.aliyuncs.com/trainning-c7n-tarin/train-20605
+  repository: registry.cn-hangzhou.aliyuncs.com/trainning-c7n-tarin/train-20609
   pullPolicy: Always
 
 #preJob:
@@ -26,7 +26,7 @@ image:
 #      password: choerodon
 
 deployment:
-  managementPort: 20605
+  managementPort: 20609
 
 env:
   open:
@@ -45,8 +45,8 @@ env:
 #    SPRING_CLOUD_STREAM_KAFKA_BINDER_ZK_NODES: zookeeper-0.zookeeper-headless.zookeeper.svc.cluster.local:2181,zookeeper-1.zookeeper-headless.zookeeper.svc.cluster.local:2181,zookeeper-2.zookeeper-headless.zookeeper.svc.cluster.local:2181
 #    SPRING_KAFKA_PRODUCER_VALUE_SERIALIZER: org.apache.kafka.common.serialization.ByteArraySerializer
 
-    ID: 20605
-    NAME: 潘浩然
+    ID: 20609
+    NAME: 陈晋
 
 metrics:
   path: /prometheus
