@@ -1,0 +1,22 @@
+server:
+  port: 20609
+spring:
+  application:
+    name: train-20609
+#  cloud:
+#    config:
+#      failFast: true
+#      retry:
+#        maxAttempts: 6
+#        multiplier: 1.5
+#        maxInterval: 2000
+#      uri: onfig-server.training:8100
+#      enabled: false
+management:
+  port: 20609
+  security:
+    enabled: false
+security:
+  basic:
+    enabled: false
+
